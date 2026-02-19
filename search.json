@@ -1,0 +1,77 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/Jupyter_example.html",
+    "href": "content/Jupyter_example.html",
+    "title": "Jupyter notebook example",
+    "section": "",
+    "text": "Example taken from this website\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Jupyter notebook example"
+    ]
+  },
+  {
+    "objectID": "content/RMarkdown_exemple.html",
+    "href": "content/RMarkdown_exemple.html",
+    "title": "RMarkdown_exemple",
+    "section": "",
+    "text": "Example taken from this website\n{r setup, include=FALSE} ## Name the cell, and do not include it in the rendering knitr::opts_chunk$set(echo = TRUE)",
+    "crumbs": [
+      "RMarkdown_exemple"
+    ]
+  },
+  {
+    "objectID": "content/RMarkdown_exemple.html#introduction",
+    "href": "content/RMarkdown_exemple.html#introduction",
+    "title": "RMarkdown_exemple",
+    "section": "Introduction",
+    "text": "Introduction\nThis is a basic RMarkdown document.\nWe can edit text and execute R code :\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
+    "crumbs": [
+      "RMarkdown_exemple"
+    ]
+  },
+  {
+    "objectID": "content/RMarkdown_exemple.html#graphiques",
+    "href": "content/RMarkdown_exemple.html#graphiques",
+    "title": "RMarkdown_exemple",
+    "section": "Graphiques",
+    "text": "Graphiques\nWe can also easily add graphics :\n\nplot(pressure)",
+    "crumbs": [
+      "RMarkdown_exemple"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto website template",
+    "section": "",
+    "text": "This guide walks you step-by-step through publishing a Jupyter Notebook (.ipynb) and/or R Markdown (.Rmd) project to GitHub Pages using Quarto.\n\n\n\n\n\n\nNote\n\n\n\nTo follow this guide, we assume that you already have: 1) git installed and set up on your computer, 2) a github account, 3) you known how to edit jupyter notebooks, Markdown and/or RMarkdown files.\n\n\n\n\nQuarto is an open-source scientific and technical publishing system that can render:\n\nJupyter Notebooks (.ipynb)\nR Markdown (.Rmd)\nMarkdown(.md or .qmd)\n\nfrom multiple languages like Python, R or Julia into websites, PDFs, blogs, and more.\nPlease follow the guidelines to install Quarto and the extension for your text editor (not necessary but better user experience).\n\n\n\nWe will create a new project named my_awesome_project. Consider that this can be anything that you want to share with your colleagues, tutors, students, etc…\n\n\nOn this repository, click on the Fork button on the top right corner of the page.\nThis will ask you to name a new project that is gonna be a fork of this one, hosted into your github account.\nUntick the Copy the main branch only button, as you want to get all branches. Finaly, click on the Create fork button.\nGreat ! You now have your own quarto website project hosted on your account.\n\n\n\nThis is the usual git workflow:\ngit clone https://github.com/YOURUSERNAME/my_awesome_project.git`\nor use Github Desktop or VS Code or etc… to download the project.\n\n\n\nWe now need to tell GitHub that this project is gonna host a website.\nInside your new project https://github.com/YOURUSERNAME/my_awesome_project.git :\n\nClick on Settings\nClick on Pages on the left sidebar\nUnder Build and deployment:\n\nSource: Deploy from a branch\nBranch: gh-pages branch\n\nClick Save\n\nCongrats, you now have a website hosted on GitHub pages. Wait 2-3 minutes and check at https://YOURUSERNAME.github.io/my_awesome_project/\n\n\n\n\nDetailed instructions on how to render the website can be found here.\nYou now have a new project:\n\nhosted on your github account\nalready configured to generate a quarto website\ngithub pages is already configured to host the website that quarto will build on the gh-pages branch.\n\nYou can now add new content and organize it the way you want.\nYou now have 2 magic commands that you need to know:\nTo render the website on your computer, you need to run:\nquarto render\n\n\n\n\n\n\nNote\n\n\n\nPlease note that the Jupyter_example.ipnb will fail to render as the python kernel selected will not exist on your local environment. Just change it’s value to standard python3 if youhave numpy and matplotlib already installed.\n\n\nTo publish your website, you need to run:\nquarto publish gh-pages\nYou IDE also probably has some shortcuts for these commands.\nand “voilà”, your website is now ready at : https://YOURUSERNAME.github.io/my_awesome_project/\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#install-quarto",
+    "href": "index.html#install-quarto",
+    "title": "Quarto website template",
+    "section": "",
+    "text": "Quarto is an open-source scientific and technical publishing system that can render:\n\nJupyter Notebooks (.ipynb)\nR Markdown (.Rmd)\nMarkdown(.md or .qmd)\n\nfrom multiple languages like Python, R or Julia into websites, PDFs, blogs, and more.\nPlease follow the guidelines to install Quarto and the extension for your text editor (not necessary but better user experience)."
+  },
+  {
+    "objectID": "index.html#create-a-minmal-website-using-this-template",
+    "href": "index.html#create-a-minmal-website-using-this-template",
+    "title": "Quarto website template",
+    "section": "",
+    "text": "We will create a new project named my_awesome_project. Consider that this can be anything that you want to share with your colleagues, tutors, students, etc…\n\n\nOn this repository, click on the Fork button on the top right corner of the page.\nThis will ask you to name a new project that is gonna be a fork of this one, hosted into your github account.\nUntick the Copy the main branch only button, as you want to get all branches. Finaly, click on the Create fork button.\nGreat ! You now have your own quarto website project hosted on your account.\n\n\n\nThis is the usual git workflow:\ngit clone https://github.com/YOURUSERNAME/my_awesome_project.git`\nor use Github Desktop or VS Code or etc… to download the project.\n\n\n\nWe now need to tell GitHub that this project is gonna host a website.\nInside your new project https://github.com/YOURUSERNAME/my_awesome_project.git :\n\nClick on Settings\nClick on Pages on the left sidebar\nUnder Build and deployment:\n\nSource: Deploy from a branch\nBranch: gh-pages branch\n\nClick Save\n\nCongrats, you now have a website hosted on GitHub pages. Wait 2-3 minutes and check at https://YOURUSERNAME.github.io/my_awesome_project/"
+  },
+  {
+    "objectID": "index.html#publish-your-changes",
+    "href": "index.html#publish-your-changes",
+    "title": "Quarto website template",
+    "section": "",
+    "text": "Detailed instructions on how to render the website can be found here.\nYou now have a new project:\n\nhosted on your github account\nalready configured to generate a quarto website\ngithub pages is already configured to host the website that quarto will build on the gh-pages branch.\n\nYou can now add new content and organize it the way you want.\nYou now have 2 magic commands that you need to know:\nTo render the website on your computer, you need to run:\nquarto render\n\n\n\n\n\n\nNote\n\n\n\nPlease note that the Jupyter_example.ipnb will fail to render as the python kernel selected will not exist on your local environment. Just change it’s value to standard python3 if youhave numpy and matplotlib already installed.\n\n\nTo publish your website, you need to run:\nquarto publish gh-pages\nYou IDE also probably has some shortcuts for these commands.\nand “voilà”, your website is now ready at : https://YOURUSERNAME.github.io/my_awesome_project/\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

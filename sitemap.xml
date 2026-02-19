@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://umr-amap.github.io/quarto_website_template/about.html</loc>
+    <lastmod>2026-02-19T22:54:57.210Z</lastmod>
+  </url>
+  <url>
+    <loc>https://umr-amap.github.io/quarto_website_template/content/Jupyter_example.html</loc>
+    <lastmod>2026-02-19T22:54:57.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://umr-amap.github.io/quarto_website_template/content/RMarkdown_exemple.html</loc>
+    <lastmod>2026-02-19T22:54:57.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://umr-amap.github.io/quarto_website_template/index.html</loc>
+    <lastmod>2026-02-19T22:54:57.215Z</lastmod>
+  </url>
+</urlset>
