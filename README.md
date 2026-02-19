@@ -32,7 +32,7 @@ Then enable the "Include all branches" option.
 
 It will ask you to name your new project, hosted into your github account.
 
-Finaly, click on the `Create fork` button.
+Finaly, click on the `Create repository` button.
 
 Great ! You now have your own quarto website project hosted on your account.
 
