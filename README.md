@@ -24,13 +24,15 @@ Please follow the [guidelines](https://quarto.org/docs/get-started/) to install 
 
 We will create a new project named `my_awesome_project`. Consider that this can be anything that you want to share with your colleagues, tutors, students, etc...
 
-### Fork this repository into your github
+### Use this repository as a template
 
-On this repository, click on the `Fork` button on the top right corner of the page.
+On this repository, click on the green `Use this template` button on the top right corner of the page and `Create a new repository`.
 
-This will ask you to name a new project that is gonna be a fork of this one, hosted into your github account.
+Then enable the "Include all branches" option.
 
-**Untick** the `Copy the main branch only` button, as you want to get all branches. Finaly, click on the `Create fork` button.
+It will ask you to name your new project, hosted into your github account.
+
+Finaly, click on the `Create fork` button.
 
 Great ! You now have your own quarto website project hosted on your account.
 
