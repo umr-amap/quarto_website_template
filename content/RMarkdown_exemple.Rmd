@@ -1,0 +1,33 @@
+---
+title: "RMarkdown_exemple"
+author: "POLIS"
+date: "10 april 2057"
+output: html_document
+---
+
+Example taken from [this website](https://larmarange.github.io/analyse-R/rmarkdown-les-rapports-automatises.html)
+
+
+```{r setup, include=FALSE} ## Name the cell, and do not include it in the rendering
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This is a basic RMarkdown document.
+
+We can edit text and execute R code :
+
+```{r}
+summary(cars)
+```
+
+## Graphiques
+
+We can also easily add graphics :
+
+```{r}
+plot(pressure)
+```
+
+

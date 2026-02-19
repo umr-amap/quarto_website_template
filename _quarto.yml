@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  back-to-top-navigation: true  # Back to top button at the bottom of the page
+  page-footer: "Copyright 2057, POLIS - AMAP" 
+  reader-mode: true # Activate reader-mode
+  repo-url: https://github.com/umr-amp/quarto-website-template 
+  repo-actions: [edit, source, issue]  # Add edit, source and issue buttons
+  navbar:  # Top menu bar definition
+    title: "my_awesome_project"
+    background: primary
+    search: true
+    left:  # Definition of the menus in the top bar
+      - href: index.qmd
+        text: Home
+      - sidebar:Notebooks
+      - about.qmd
+  sidebar: # Sidebar definition
+    - id: Notebooks  # In this case only relevant for the Notebooks section
+      style: "docked"
+      collapse-level: 1
+      contents: content/* # Include all the content from the "content" folder
+
+format:  # Styling
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto  # re-render only when source changes
+

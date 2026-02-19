@@ -1,0 +1,17 @@
+{
+  "hash": "32db3aebd3f924168b838bf0be60c37e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"RMarkdown_exemple\"\nauthor: \"POLIS\"\ndate: \"10 april 2057\"\noutput: html_document\n---\n\n\n\n\nExample taken from [this website](https://larmarange.github.io/analyse-R/rmarkdown-les-rapports-automatises.html)\n\n\n```{r setup, include=FALSE} ## Name the cell, and do not include it in the rendering\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## Introduction\n\nThis is a basic RMarkdown document.\n\nWe can edit text and execute R code :\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsummary(cars)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n```\n\n\n:::\n:::\n\n\n\n\n## Graphiques\n\nWe can also easily add graphics :\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(pressure)\n```\n\n::: {.cell-output-display}\n![](RMarkdown_exemple_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "RMarkdown_exemple_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
