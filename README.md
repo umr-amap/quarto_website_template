@@ -26,7 +26,7 @@ We will create a new project named `my_awesome_project`. Consider that this can 
 
 ### Use this repository as a template
 
-On this repository, click on the green `Use this template` button on the top right corner of the page and `Create a new repository`.
+On this [current repository](https://github.com/umr-amap/quarto_website_template), click on the green `Use this template` button on the top right corner of the page and `Create a new repository`.
 
 Then enable the "Include all branches" option.
 

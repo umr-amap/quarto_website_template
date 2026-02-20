@@ -5,7 +5,7 @@ website:
   back-to-top-navigation: true  # Back to top button at the bottom of the page
   page-footer: "Copyright 2057, POLIS - AMAP" 
   reader-mode: true # Activate reader-mode
-  repo-url: https://github.com/umr-amp/quarto-website-template 
+  repo_url: https://github.com/umr-amap/quarto_website_template 
   repo-actions: [edit, source, issue]  # Add edit, source and issue buttons
   navbar:  # Top menu bar definition
     title: "my_awesome_project"
